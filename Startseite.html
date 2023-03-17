@@ -1,40 +1,83 @@
 <!DOCTYPE html>
-<html lang="de-ch">
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>Corona Website</title>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webshop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<header class="header">
-		<a href="loginpage.html" class="nav-link">Logout</a>
-		<a href="Startseite.html" class="nav-link">Home</a>
-		<a href="Coronaschweiz.html" class="nav-link">Corona in der Schweiz</a>
-		<a href="coronavideo.html" class="nav-link">Corona Video</a>
-		<a href="aktuelle_lage.html" class="nav-link">Aktuelle Lage</a>
-		<a href="Ansicht_Schüler.html" class="nav-link">Schüler Ansicht</a>
-	</header>
-	<main class="content">
-		<h1 class="title-2">Wear a mask!</h1>
-<p class="title-3">
-	Das Balken-Video wurde erstellt für das Modul 431. Das Balken-Video zeigt auf, dass Covid19 verbreit ist. Mit dem Video soll man auch sehen, welche Länder zu den bestimmten Zeiten am meisten Ansteckungen im Totalen hatte. Die Daten wurden bis zum 28.06.2020 gesammelt. Wir haben aufghört mit der Datenerfassung, da ab diesem Zeitpunkt keine täglichen Informationen publiziert wurden.
-Die Daten stammen von der Weltgesundheitsorganisation WHO.
-</p>
-  <video src="M431.mp4" type="mp4/video" width="640" height="480" autoplay="autoplay" controls="controls"></video>
-<p class="title-2">
-*Im Video werden die top 10 Länder angezeigt
-</p>
-</main>
-
-<footer class="footer">
-	<p class="footer-text">
-	Autor: Benjamin Uwuruike
-	</p>
-	<p class="footer-text">
-	Website: Kaan Sandal
-	</p>
-	<p class="footer-text">
-	Diagramm Video: Cornel Forster
-	</p>
-</footer>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="nav-brand">
+          <a href="#"><img src="logo.png" alt="Web Shop"></a>
+        </div>
+        <div class="nav-items">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <ul>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Welcome to Web Shop</h1>
+          <p>Find everything you need at our online store</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="features">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-col">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Fast Shipping</h3>
+          <p>We offer fast shipping to all our customers</p>
+        </div>
+        <div class="feature-col">
+          <i class="fas fa-headphones-alt"></i>
+          <h3>24/7 Customer Support</h3>
+          <p>Our customer support team is always here to help you</p>
+        </div>
+        <div class="feature-col">
+          <i class="fas fa-thumbs-up"></i>
+          <h3>100% Satisfaction Guarantee</h3>
+          <p>We guarantee your satisfaction with all our products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="product-row">
+        <div class="product-col">
+          <img src="product1.jpg" alt="Product 1">
+         
+		  <h4>Product 1</h4>
+          <p>$19.99</p>
+          <a href="#" class="btn btn-secondary">Add to Cart</a>
+        </div>
+        <div class="product-col">
+          <img src="product2.jpg" alt="Product 2">
+          <h4>Product 2</h4>
+          <p>$29.99</p>
+          <a href="#" class="btn btn-secondary">Add to Cart</a>
+        </div>
+        <div class="product-col">
+          <img src="product3.jpg" alt="Product 3
